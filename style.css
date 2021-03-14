@@ -1,0 +1,32 @@
+body {
+  margin:0;
+  padding: 0;
+  background:#ecf0f1 ;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  display: flex;
+ background: #fff;
+ justify-content:center;
+ align-items: center;
+}
+
+header img {
+  width: 200px;
+}
+
+section{
+  padding: 5px;
+}
+
+.master p {
+  font-size: 80px;;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
+  color:transparent;
+  font-weight: 600;
+  background-image: url('./background_name.jpg');
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin: 0 auto;
+}
